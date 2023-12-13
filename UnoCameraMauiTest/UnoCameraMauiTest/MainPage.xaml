@@ -1,0 +1,20 @@
+﻿<Page x:Class="UnoCameraMauiTest.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:UnoCameraMauiTest"
+      xmlns:utu="using:Uno.Toolkit.UI"
+      xmlns:controls="using:UnoCameraMauiTest.MauiControls"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <StackPanel utu:SafeArea.Insets="VisibleBounds"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center">
+    <TextBlock AutomationProperties.AutomationId="HelloTextBlock"
+          Text="Hello Uno Platform"
+          HorizontalAlignment="Center" />
+    <TextBlock Text="{x:Bind ViewModel.Parameter, Mode=OneWay}" TextWrapping="WrapWholeWords"/>
+    <embed:MauiHost x:Name="MauiHostElement"
+            xmlns:embed="using:Uno.Extensions.Maui"
+            Source="controls:EmbeddedControl" />
+
+  </StackPanel>
+</Page>

@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9488E666-E19A-4166-92AB-8383A9EEA83D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{34D2C496-38A0-4A92-8494-5BA4C085D2BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoCameraMauiTest.MauiControls", "UnoCameraMauiTest\UnoCameraMauiTest.MauiControls\UnoCameraMauiTest.MauiControls.csproj", "{BC523568-DCD8-426E-9E07-0EB3E61B7F34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoCameraMauiTest", "UnoCameraMauiTest\UnoCameraMauiTest\UnoCameraMauiTest.csproj", "{17593190-ED38-43EE-8F1B-F0A733268BE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoCameraMauiTest.Shared", "UnoCameraMauiTest\UnoCameraMauiTest.Shared\UnoCameraMauiTest.Shared.csproj", "{3B824119-F427-48F9-9A80-3B6AA10CAC3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoCameraMauiTest.Mobile", "UnoCameraMauiTest\UnoCameraMauiTest.Mobile\UnoCameraMauiTest.Mobile.csproj", "{D19BF05C-9524-4F72-B24E-B7310D246A6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A109B754-1ED7-4A21-A5A8-96B640C0E939}"
+	ProjectSection(SolutionItems) = preProject
+		UnoCameraMauiTest\.gitignore = UnoCameraMauiTest\.gitignore
+		UnoCameraMauiTest\Directory.Build.props = UnoCameraMauiTest\Directory.Build.props
+		UnoCameraMauiTest\Directory.Build.targets = UnoCameraMauiTest\Directory.Build.targets
+		UnoCameraMauiTest\Directory.Packages.props = UnoCameraMauiTest\Directory.Packages.props
+		UnoCameraMauiTest\solution-config.props.sample = UnoCameraMauiTest\solution-config.props.sample
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC523568-DCD8-426E-9E07-0EB3E61B7F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC523568-DCD8-426E-9E07-0EB3E61B7F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC523568-DCD8-426E-9E07-0EB3E61B7F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC523568-DCD8-426E-9E07-0EB3E61B7F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17593190-ED38-43EE-8F1B-F0A733268BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17593190-ED38-43EE-8F1B-F0A733268BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17593190-ED38-43EE-8F1B-F0A733268BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17593190-ED38-43EE-8F1B-F0A733268BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B824119-F427-48F9-9A80-3B6AA10CAC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B824119-F427-48F9-9A80-3B6AA10CAC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B824119-F427-48F9-9A80-3B6AA10CAC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B824119-F427-48F9-9A80-3B6AA10CAC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34D2C496-38A0-4A92-8494-5BA4C085D2BF} = {9488E666-E19A-4166-92AB-8383A9EEA83D}
+		{BC523568-DCD8-426E-9E07-0EB3E61B7F34} = {9488E666-E19A-4166-92AB-8383A9EEA83D}
+		{17593190-ED38-43EE-8F1B-F0A733268BE0} = {9488E666-E19A-4166-92AB-8383A9EEA83D}
+		{3B824119-F427-48F9-9A80-3B6AA10CAC3A} = {34D2C496-38A0-4A92-8494-5BA4C085D2BF}
+		{D19BF05C-9524-4F72-B24E-B7310D246A6A} = {34D2C496-38A0-4A92-8494-5BA4C085D2BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A96B36BA-CB93-4BD5-9356-4BA43B67C6BF}
+	EndGlobalSection
+EndGlobal
